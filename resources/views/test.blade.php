@@ -9,5 +9,6 @@
 </head>
 <body>
     <h1>Test complete</h1>
+    <h2>{{ $name }}</h2>
 </body>
 </html>
