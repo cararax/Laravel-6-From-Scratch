@@ -23,7 +23,7 @@ Route::get('/test', function () {
 });
 
 
-Route::get('/posts/{post}', function ($post) {
+/*Route::get('/posts/{post}', function ($post) {
 
      $posts=[
          'my-first-post'=>'Hello, this is my first blog post!',
@@ -37,4 +37,6 @@ Route::get('/posts/{post}', function ($post) {
     return view('post', [
         'post'=>$posts[$post] // ?? 'Nothing here yet'
     ]);
-});
+});*/
+
+Route::get('/posts/{post}', 'PostsController@show');
