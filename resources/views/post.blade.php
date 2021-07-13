@@ -8,8 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>My blog post</h1>
+    <h1>Histórias do Boça 😂😂😂😂😂</h1>
 
-    <p>{{$post}}</p>
+    <p>{{ $post }}</p>
 </body>
 </html>
