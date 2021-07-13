@@ -10,6 +10,6 @@
 <body>
     <h1>Histórias do Boça 😂😂😂😂😂</h1>
 
-    <p>{{ $post }}</p>
+    <p>{{ $post->body }}</p>
 </body>
 </html>
